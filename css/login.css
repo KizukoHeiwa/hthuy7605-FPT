@@ -77,6 +77,15 @@
     height: 100%;
 }
 
+.container .remember{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    right: 100px;
+    justify-content: left;
+    
+}
+
 .container input{
     background-color: #eee;
     border: none;
