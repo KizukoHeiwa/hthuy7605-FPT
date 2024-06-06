@@ -77,7 +77,7 @@ body{
     font-weight: 500;
     font-size: 30px;
 }
-.signup-signin input[type = "text"], .signup-signin input[type = "password"]{
+.signup-signin input[type = "text"], .signup-signin input[type = "password"], .signup-signin input[type="email"]{
     color: white;
     border: 1px solid white;
     padding: 10px;
