@@ -7,66 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
     <nav>
         <div class="navTop">
             <div class="navItem">
-                <a href="#"><img src="img/logo.png" alt="LogoImg" width="111" height="99,9"></a>
+                <a href="#"><img src="/img/logo.png" alt="LogoImg" width="111" height="99,9"></a>
             </div>
             <div class="navItem">
                 <div class="search">
                     <input type="text" placeholder="Search..." class="searchInput" id="">
-                    <img src="img/search.png" width="20" height="20" alt="SearchIcon" class="searchIcon">
+                    <img src="/img/search.png" width="20" height="20" alt="SearchIcon" class="searchIcon">
                 </div>
             </div>
             <div class="navItem">
-                <!-- <span class="limitedOffer">Limited Offer!</span> -->
-                <a href="#" class="loginInterface" onclick="openForm()">Đăng nhập | Đăng ký</a>
-                <div class="bodyLogin" id="bodyLogin">
-                    <div class="container" id="container">
-                        <div class="form-container sign-up">
-                            <form>
-                                <h1>Đăng ký</h1>
-                                <span>Đăng ký bằng email và password</span>
-                                <input type="text" placeholder="Name">
-                                <input type="email" placeholder="Email">
-                                <input type="password" placeholder="Password">
-                                <a href="index.html" id="button">Đăng ký</a>
-                            </form>
-                        </div>
-                        <div class="form-container sign-in">
-                            <form>
-                                <h1>Đăng nhập</h1>
-                                <span>Sử dụng email và password</span>
-                                <input type="email" placeholder="Email">
-                                <input type="password" placeholder="Password">
-                                <a href="#">Quên mật khẩu?</a>
-                                <a href="index.html" id="button">Đăng nhập</a>
-                            </form>
-                        </div>
-                        <div class="toggle-container">
-                            <div class="toggle">
-                                <div class="toggle-panel toggle-left">
-                                    <h1>Chào mừng bạn đã đến với shop của tớ!</h1>
-                                    <p>Bạn hãy đăng ký để sử dụng được nhiều tính năng hơn nhé!</p>
-                                    <button class="hidden" id="login">Đăng nhập</button>
-                                </div>
-                                <div class="toggle-panel toggle-right">
-                                    <h1>Chào mừng bạn quay trở lại!</h1>
-                                    <p>Bạn hãy đăng nhập để sử dụng được nhiều tính năng hơn nhé!</p>
-                                    <button class="hidden" id="register">Đăng ký</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <script src="signup-signin.js"></script>
-                </div>
-                <!-- <a href="" class="loginInterface">Đăng ký</a> -->
+                <a href="dangKy.html" class="loginInterface" onclick="openForm()">Đăng ký |</a>
+                <!-- <div class="bodyLogin" id="bodyLogin">
+                    <a href="dangKy.html"></a>
+                </div> -->
+                <a href="dangNhap.html" class="loginInterface">Đăng nhập</a>
+
             </div>
+            <script src="signup-signin.js"></script>
         </div>
         <div class="navBottom">
             <!-- <h3 class="menuItem">Gundam</h3>
@@ -84,7 +48,7 @@
         <div class="column">
             <div class="san-pham">
                 <div class="ten">Gundam</div>
-                <a href="#product"><img src="img/gundam-black.png" alt=""></a>
+                <a href="#product"><img src="/img/gundam-black.png" alt=""></a>
                 <div class="gia">
                     <strong><del>$150</del> $148</strong>
                 </div>
@@ -94,7 +58,7 @@
         <div class="column">
             <div class="san-pham">
                 <div class="ten">T-Shirt</div>
-                <a href="#product"><img src="img/tshirt-green.png" alt=""></a>
+                <a href="#product"><img src="/img/tshirt-green.png" alt=""></a>
                 <div class="gia">
                     <strong><del>$150</del> $148</strong>
                 </div>
@@ -104,7 +68,7 @@
         <div class="column">
             <div class="san-pham">
                 <div class="ten">Helmet</div>
-                <a href="#product"><img src="img/helmet-red.png" alt=""></a>
+                <a href="#product"><img src="/img/helmet-red.png" alt=""></a>
                 <div class="gia">
                     <strong><del>$150</del> $148</strong>
                 </div>
@@ -114,7 +78,7 @@
         <div class="column">
             <div class="san-pham">
                 <div class="ten">Item 4</div>
-                <a href="#product"><img src="img/gundam-black.png" alt=""></a>
+                <a href="#product"><img src="/img/gundam-black.png" alt=""></a>
                 <div class="gia">
                     <strong><del>$150</del> $148</strong>
                 </div>
@@ -123,7 +87,7 @@
     </nav>
 
     <div class="product" id="product">
-        <img src="img/gundam-black.png" alt="" class="productImg">
+        <img src="/img/gundam-black.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">HG 1/144 BLACK KNIGHT SQUAD Shi-ve.A</h1>
             <h2 class="productPrice">1,000,000 VND</h2>
