@@ -87,6 +87,7 @@ nav{
 .article{
     position: relative;
     background: url("../img/background.png");
+    background-repeat: no-repeat;
     height: 1000px;
     padding: 2% 10%;
 }
@@ -127,6 +128,7 @@ nav{
 
 .slider{
     background: url("../img/background.png");
+    background-repeat: no-repeat;
 }
 
 .sliderWrapper{
